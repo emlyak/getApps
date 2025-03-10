@@ -15,9 +15,11 @@ curl https://vscode.download.prss.microsoft.com/dbazure/download/stable/6609ac3d
 tar -xf VSCode-linux-x64
 mv -R VSCode-linux-x64 /opt
 
-ln -sT /opt/VSCode-linux-x64/bin/code code
-ln -sT /opt/VSCode-linux-x64/bin/code сщву
+ln -sT /opt/VSCode-linux-x64/bin/code /usr/bin/code
+ln -sT /opt/VSCode-linux-x64/bin/code /uzr/bin/сщву
 
+ln -sT /usr/bin/thunderbird /usr/bin/ергтвукишкв
+ln -sT /usr/bin/telegram-desktop /usr/bin/еудупкфь-вуылещз
 
 
 echo "Getting yandex-disk..."
