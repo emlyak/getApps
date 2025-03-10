@@ -27,16 +27,16 @@ echo "Download oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 curl -O https://extensions.gnome.org/extension-data/caffeinepatapon.info.v56.shell-extension.zip
-gnome-extensions inatall caffeinepatapon.info.v56.shell-extension.zip
+gnome-extensions inatsll caffeinepatapon.info.v56.shell-extension.zip
 gnome-extensions enable caffeinepatapon.info.v56.shell-extension.zip
 
 curl -O https://extensions.gnome.org/extension-data/hidetopbarmathieu.bidon.ca.v118.shell-extension.zip
-gnome-extensions inatall hidetopbarmathieu.bidon.ca.v118.shell-extension.zip
+gnome-extensions inatsll hidetopbarmathieu.bidon.ca.v118.shell-extension.zip
 gnome-extensions enable hidetopbarmathieu.bidon.ca.v118.shell-extension.zip
 
 
 curl -O https://extensions.gnome.org/extension-data/Resource_MonitorOry0n.v25.shell-extension.zip
-gnome-extensions inatall Resource_MonitorOry0n.v25.shell-extension.zip
+gnome-extensions inatsll Resource_MonitorOry0n.v25.shell-extension.zip
 gnome-extensions enable Resource_MonitorOry0n.v25.shell-extension.zip
 
 rm hidetopbarmathieu* Resource_MonitorOry0n* caffeinepatapon*
