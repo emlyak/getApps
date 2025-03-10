@@ -9,6 +9,11 @@ pacman -S --noconfirm tar unzip zip man libreoffice-fresh-ru calibre git gcc mak
     bluez bluez-utils telegram-desktop gthumb obsidian timeshift qbittorrent vlc rawtherapee remmina \
     kdeconnect openssh
 
+echo "Activate bluetooth"
+systemctl enable bluetooth
+systemctl start bluetooth
+
+systemctl daemon-reload
 
 echo "Curling VScode..."
 curl https://vscode.download.prss.microsoft.com/dbazure/download/stable/6609ac3d66f4eade5cf376d1cb76f13985724bcb/code-stable-x64-1741123754.tar.gz -o VSCode-linux-x64
