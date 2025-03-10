@@ -1,10 +1,10 @@
 #!/bin/sh
 
 echo "Updating system..."
-pacman -Syu
+pacman -Syu --noconfirm
 
 echo "Download apps..."
-pacman -S tar unzip zip man libreoffice-fresh-ru calibre git gcc make cmake clang curl firefox zsh \
+pacman -S --noconfirm tar unzip zip man libreoffice-fresh-ru calibre git gcc make cmake clang curl firefox zsh \
     wget vim thunderbird htop alacritty gnome-shell-extensions keepassxc \
     bluez bluez-utils telegram-desktop gthumb obsidian timeshift qbittorrent vlc rawtherapee remmina \
     kdeconnect
