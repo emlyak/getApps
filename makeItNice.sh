@@ -23,9 +23,6 @@ ln -sT /opt/VSCode-linux-x64/bin/code сщву
 echo "Getting yandex-disk..."
 git clone https://aur.archlinux.org/yandex-disk.git
 
-echo "Download oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 curl -O https://extensions.gnome.org/extension-data/caffeinepatapon.info.v56.shell-extension.zip
 gnome-extensions inatsll caffeinepatapon.info.v56.shell-extension.zip
 gnome-extensions enable caffeinepatapon.info.v56.shell-extension.zip
@@ -43,3 +40,5 @@ rm hidetopbarmathieu* Resource_MonitorOry0n* caffeinepatapon*
 
 git clone https://aur.archlinux.org/portproton.git
 
+echo "Download oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
