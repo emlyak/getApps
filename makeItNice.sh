@@ -4,7 +4,7 @@ echo "Updating system..."
 pacman -Syu --noconfirm
 
 echo "Download apps..."
-pacman -S --noconfirm tar unzip zip man libreoffice-fresh-ru calibre git gcc make cmake clang curl firefox zsh \
+pacman -S --noconfirm tar unzip zip man libreoffice-fresh-ru calibre git gcc make cmake clang curl firefox zsh pipewire-pulse \
     wget vim thunderbird htop alacritty gnome-shell-extensions keepassxc \
     bluez bluez-utils telegram-desktop gthumb obsidian timeshift qbittorrent vlc rawtherapee remmina \
     kdeconnect openssh
